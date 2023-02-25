@@ -11,7 +11,7 @@ final class RMTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
+        view.backgroundColor = .systemBackground
         setUpTabs()
 
     }
@@ -49,7 +49,7 @@ final class RMTabBarController: UITabBarController {
         
         nav3.tabBarItem = UITabBarItem(title: "Episodes",
                                        image: UIImage(systemName: "tv"),
-                                       tag: 1)
+                                       tag:3)
         
         nav4.tabBarItem = UITabBarItem(title: "Settings",
                                        image: UIImage(systemName: "gear"),
